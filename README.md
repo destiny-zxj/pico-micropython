@@ -12,4 +12,5 @@
 | 1.8 128×160 RGB-TFT | ST7735   | SPI  | [st7735](./st7735)     |             |
 | AT24C256            | AT24C256 | I2C  | [at24c256](./at24c256) |             |
 | 4×4 Keys            |          | Pin  | [4x4_keys](./4x4_keys) | 4×4矩阵按钮 |
+| 0.96 OLED           | SSD1306  | I2C  | [ssd1306](./ssd1306)   |             |
 
