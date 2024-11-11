@@ -4,8 +4,8 @@ from sysfont import sysfont
 
 
 spi = SPI(1, baudrate=1000000, polarity=0, phase=0, bits=8, sck=10, mosi=11)
-tft = TFT(spi, 16, 17, 18)
-
+tft = TFT(spi, 8, 9, 7)
+tft.rotation(2)
 tft.initr()
 tft.rgb(True)
 tft.fill(TFT.BLACK)
